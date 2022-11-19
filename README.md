@@ -1,4 +1,4 @@
-# First Project
+# First PureScript Halogen Project with Vite
 
 ## Run Project
 
@@ -73,7 +73,7 @@ yarn serve
        "spago": "^0.20.9",
        "vite": "^3.2.4"
      },
-     scripts: {
+     "scripts": {
        "build": "spago build",
        "dev": "spago run",
        "serve": "vite serve ./dev",
