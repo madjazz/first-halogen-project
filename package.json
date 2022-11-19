@@ -1,0 +1,18 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "Simple PureScript Halogen setup with Vite",
+  "author": "Timo Klingler",
+  "license": "WTFPL",
+  "dependencies": {
+    "purescript": "^0.15.6",
+    "spago": "^0.20.9",
+    "vite": "^3.2.4"
+  },
+  "scripts": {
+    "build": "spago build",
+    "dev": "spago run",
+    "serve": "vite serve ./dev",
+    "test":  "spago test"
+  }
+}
